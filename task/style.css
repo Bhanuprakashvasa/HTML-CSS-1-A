@@ -1,0 +1,140 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(238, 162, 162);
+}
+.container{
+    background-color: rgb(65, 200, 223);
+    height: 83vh;
+    width: 80vw;
+    
+}
+#title{
+    text-align: left;
+}
+#description{
+    text-align: left; 
+}
+
+.firstNameDiv{
+    display: inline-block;
+    margin-left: 2rem;
+    padding:1rem;
+}
+.lastNameDiv{
+    display: inline-block;
+    margin-left: 25rem;
+    padding:1rem;
+    
+}
+.emailDiv{
+    display: inline-block;
+    margin-left: 2rem;
+    padding:1rem;
+}
+
+.addressDiv{
+    display: inline-block;
+    margin-left: 25rem;
+    padding:1rem;
+}
+.pincodeDiv{
+    display: inline-block;
+    margin-left: 2rem;
+    padding:1rem;
+}
+.stateDiv{
+    display: inline-block;
+    margin-left: 25rem;
+    padding:1rem;
+}
+.countryDiv{
+    display: inline-block;
+    margin-left: 2rem;
+    padding:1rem; 
+}
+
+
+.genderDiv{
+    position: absolute;
+    display: inline-block;
+    margin-left: 3.5rem;
+     margin-top: 1rem;
+}
+.maleDiv{
+    display: inline-block;
+    margin-left: 0rem;
+    padding:1rem; 
+    position: absolute;
+}
+.maleDiv>input{
+    margin-left: 60px;
+    position: absolute;
+}
+
+.femaleDiv{
+    display: inline-block;
+    margin-left: 5rem;
+    padding:1rem;  
+    position: absolute;
+}
+.femaleDiv>input{
+    margin-left: 70px;
+  
+    position: absolute;
+}
+.foodDiv{
+    display: inline-block;
+    margin-left: 38rem;   
+}
+
+.foodDiv p{
+margin-left: -7rem;
+}
+
+.textareaDiv{
+    position: absolute;
+    display: inline-block;
+    margin-top: -3.5rem;
+    margin-left: 2rem;
+    padding:1rem;
+}
+
+#food1{
+    font-size: 10px;
+    color: black;
+}
+label{
+    margin-left: 10px;
+    position: absolute;
+}
+input{
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+#submit{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 5rem;
+    width: 100px;
+    border: 1px solid black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+
+
+td{
+    border: 1px solid black;
+}
+.table{
+   margin: 10px auto;
+    width: 80vw;
+    text-align: center;
+}
